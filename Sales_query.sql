@@ -94,13 +94,6 @@ FROM sales
 GROUP BY region
 ORDER BY revenue DESC;
 
--- Discount Impact
-SELECT 
-    discount,
-    AVG(profit) AS avg_profit
-FROM sales
-GROUP BY discount
-ORDER BY discount;
 
-SELECT * FROM sales;
+SELECT * FROM sales; --downloaded cleaned data
 
