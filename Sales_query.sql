@@ -1,6 +1,6 @@
 DESCRIBE sales;
 
--- Renaming the Columns
+
 ALTER TABLE sales
 RENAME COLUMN `Order ID` TO order_id;
 
